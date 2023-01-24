@@ -1,20 +1,38 @@
 .input:focus {
+
+    height: 36px;
+    width: 372px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    outline: none;
+
 }
 
 .input {
+    display: flex;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    outline: none;
+    height: 36px;
+    width: 372px;
 }
 
 .inputWrapper {
+
 }
 
 .superInput {
+
 }
 
 .errorInput {
+    border: 1px solid red;
 }
 
 .errorInput:focus {
+    border: 1px solid red;
 }
 
 .error {
+    color: #cc0000;
 }

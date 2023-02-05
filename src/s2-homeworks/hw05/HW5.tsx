@@ -1,16 +1,9 @@
 import React from 'react'
-import {BrowserRouter, HashRouter} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { Layout } from './layout/Layout'
 import Pages from './Pages'
 
 /*
-
-ДРУЗЬЯ! ПРЕЖДЕ ЧЕМ БРАТЬСЯ ЗА ВЫПОЛНЕНИЕ ДЗ НЕОБХОДИМО ОБНОВИТЬСЯ
-ОТКРЫВАЕМ ТЕРМИНАЛ И ПРОСТО ВВОДИМ (НИЧЕГО УДАЛЯТЬ НЕ НУЖНО):
-yarn add react-router-dom
-yarn add @types/react-router-dom
-
-
 * 1 - в файле Pages.tsx дописать роуты на все страницы
 * 2 - в файле Sidebar.tsx дописать className так чтоб вешался класс s.active когда мы уже на соответствующей странице
 * 3 - застилизовать хэдэр и сайдбар в соответствии с дизайном
@@ -28,4 +21,3 @@ function HW5() {
 }
 
 export default HW5
-//HashRouter
